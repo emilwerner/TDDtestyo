@@ -5,3 +5,7 @@ body {
     background:rgb(250,250,250);
     font-family: 'Roboto Condensed', sans-serif !important;
 }
+
+.row{
+    margin-bottom: 10px;
+}

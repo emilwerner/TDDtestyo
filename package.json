@@ -7,22 +7,28 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "chai": "^4.1.2",
     "css-loader": "^0.28.0",
+    "enzyme": "^2.0.0",
     "history": "^4.6.1",
     "html-webpack-plugin": "^2.28.0",
     "http-server": "^0.9.0",
+    "jsdom": "^9.0.0",
     "path": "^0.12.7",
-    "react": "^15.5.3",
+    "react": "^15.6.2",
+    "react-addons-test-utils": "^15.6.2",
     "react-bootstrap": "^0.30.8",
-    "react-dom": "^15.5.3",
+    "react-dom": "^15.6.2",
     "react-router-component": "^0.36.5",
+    "sinon": "^6.0.0",
     "style-loader": "^0.16.1",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
   },
   "scripts": {
     "start": "http-server",
-    "webpack": "webpack --watch"
+    "webpack": "webpack --watch",
+    "test": "mocha --watch --require test-setup.js */*.spec.js */*.spec.jsx"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

@@ -39,7 +39,6 @@ export default class App extends React.Component {
               <button className="btn btn-primary" onClick={this.handleListBtnClick}> Spara</button>
             </div>
           </Row>
-          <br />
           <Row>
             <div className="col-md-12">
               <ul className="list-group">
